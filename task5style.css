@@ -1,0 +1,144 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 50%;
+    margin: 50px auto;
+    /* border: 1px solid gray; */
+}
+.form-group
+{
+    margin: 20px;
+}
+input[type = text]
+{
+    width: 50%;
+}
+label, input
+{
+    padding: 10px;
+}
+#pid
+{
+    margin-left: 60px;
+}
+#pname
+{
+    margin-left: 29px;
+} 
+#pprice
+{
+    margin-left: 36px;
+}
+#errorid, #errorname, #errorprice
+{
+    margin-left: 157px;
+    color: red;
+}
+input[type = submit]
+{
+    margin: 38px 10px;
+    padding: 20px 60px;
+    background: white;
+    border: 3px solid black;
+    font-size: 17px;
+}
+table
+{
+    margin-left: 17px;
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;   
+}
+table, td, th 
+{
+    padding: 5px;
+    border: 1px solid gray;
+    border-collapse: collapse; 
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .container
+    {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .container
+    {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+    label
+    {
+        display: block;
+        margin-left: -61px;
+    }
+    input
+    {
+        display: block;
+        margin-left: -45px !important;
+    }
+    input[type = text]
+    {
+        width: 120%;
+    }
+    input[type = submit]
+    {
+        padding: 10px 20px;
+    }
+    table
+    {
+        margin-left: -27px;
+        width: 115%;    
+    }
+    #errorid, #errorname, #errorprice
+    {
+        margin-left: -43px;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    table
+    {
+        width: 120%;
+        margin-left: -30px;
+    }
+    label
+    {
+        margin-left: -57px;
+    }
+    input
+    {
+        margin-left: -46px !important;
+    }
+    input[type = text]
+    {
+        width: 123%;
+    }
+}
+@media only screen and (max-width: 320px)
+{
+    input
+    {
+        width: 129% !important;
+    }
+    input[type = submit]
+    {
+        padding: 10px 32px;
+        width: 98% !important;
+    } 
+}
